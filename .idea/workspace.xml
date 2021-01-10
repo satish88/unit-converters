@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d7d5c5-a5ae-4975-8447-03c309806196" name="Default Changelist" comment="" />
+    <list default="true" id="b6d7d5c5-a5ae-4975-8447-03c309806196" name="Default Changelist" comment="First commit for unit converter project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +41,18 @@
       <option name="presentableId" value="Default" />
       <updated>1610252813027</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit for unit converter project">
+      <created>1610253835878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610253835878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit for unit converter project" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit for unit converter project" />
   </component>
 </project>
