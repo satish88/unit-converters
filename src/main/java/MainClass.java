@@ -1,5 +1,5 @@
 public class MainClass {
-    // membersk
+    // members
 
 
     // methods
