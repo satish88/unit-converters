@@ -17,6 +17,17 @@ public class MainClass {
         // 2. F -> Celsius
         System.out.println("Enter input");
         /// ---- some magic ---
+
+
+        MinuteHour convert = new MinuteHour();
+        float result1 = convert.convertMinuteToHour(150);
+        System.out.println(result1);
+
+        int result = convert.convertHourToMinute(4);
+        System.out.println(result);
+
+
+
         System.out.println("Output: ");
     }
 
