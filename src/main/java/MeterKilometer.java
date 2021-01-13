@@ -6,7 +6,7 @@ public class MeterKilometer {
          return kilometer;
      }
 
-    public int convertKilometerToMeter(int kilometer) {
+     public int convertKilometerToMeter(int kilometer) {
         System.out.println();
         int meter = kilometer * 1000;
         return meter;

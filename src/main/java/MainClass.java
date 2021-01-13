@@ -23,7 +23,6 @@ public class MainClass {
         float result1= convert.convertMeterToKilometer(1200);
         System.out.println(result1);
 
-
         int result= convert.convertKilometerToMeter(9);
         System.out.println(result);
 
