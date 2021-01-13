@@ -17,6 +17,25 @@ public class MainClass {
         // 2. F -> Celsius
         System.out.println("Enter input");
         /// ---- some magic ---
+
+        LiterMilliliter converter = new LiterMilliliter();
+        int result;
+        result = converter.convertLiterToMilliliter(3);
+        System.out.println(result);
+
+        float result1;
+        result1 = converter.convertMilliliterToLiter(800);
+        System.out.println(result1);
+
+
+
+
+
+
+
+
+
+
         System.out.println("Output: ");
     }
 
