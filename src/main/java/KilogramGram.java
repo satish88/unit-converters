@@ -1,19 +1,21 @@
 public class KilogramGram {
-    public static void convertKilogramIntoGram(int kg) {
+    public static int convertKilogramIntoGram(int kg) {
         int gram;
         gram = 1000 * kg;
-        System.out.println(gram);
+        return gram;
     }
-    public static void convertGramIntoKilogram(int gm){
+
+    public static float convertGramIntoKilogram(int gm) {
         float kilogram;
         kilogram = gm / 1000.0f;
-        System.out.println(kilogram);
+        return kilogram;
     }
 
     public static void main(String[] args) {
-        System.out.println();
-        convertKilogramIntoGram(45);
-        convertGramIntoKilogram(6500);
+        int result = convertKilogramIntoGram(45);
+        float result1 = convertGramIntoKilogram(6500);
+        System.out.println(result);
+        System.out.println(result1);
     }
 }
 
