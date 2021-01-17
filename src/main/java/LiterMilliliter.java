@@ -6,7 +6,6 @@ public class LiterMilliliter {
         int milliliter = liter * 1000;
         return milliliter;
     }
-
     public float convertMilliliterToLiter(int milliliter) {
         System.out.println();
         float liter = milliliter / 1000.0f;
