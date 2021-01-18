@@ -30,10 +30,10 @@ public class MainClass {
         /// ---- some magic ---
 
         LiterMilliliter converter = new LiterMilliliter();
-        int result = converter.convertLiterToMilliliter(3);
+        int result = converter.convertLiterToMilliliter(8.351f);
         System.out.println(result);
 
-        float result1 = converter.convertMilliliterToLiter(800);
+        float result1 = converter.convertMilliliterToLiter(5.25f);
         System.out.println(result1);
 
 
