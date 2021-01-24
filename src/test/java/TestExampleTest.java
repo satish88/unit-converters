@@ -10,8 +10,8 @@ public class TestExampleTest {
     }
 
     @org.testng.annotations.Test
-    public void assertFlloatingGramsGetConvertedIntoKgsCorrectly() {
-        TestExample  example = new TestExample();
+    public void assertFloatingGramsGetConvertedIntoKgsCorrectly() {
+        TestExample example = new TestExample();
         float kilograms = example.convertGramIntoKilogram(1500);
         assertEquals(kilograms, 1.5, "converting 1500 gms to kgs");
     }
@@ -20,7 +20,7 @@ public class TestExampleTest {
     public void assertZeroGramsGetConvertedIntoKgsCorrectly() {
         TestExample  example = new TestExample();
         float kilograms = example.convertGramIntoKilogram(23);
-        assertEquals(kilograms, 1.5, "converting 1500 gms to kgs");
+        assertEquals(kilograms, 0.023000000044703484, "converting 23 gms to kgs");
     }
 
 }
