@@ -16,6 +16,17 @@ public class MainClass {
         // 1. Celsius -> Fahrenheit
         // 2. F -> Celsius
         System.out.println("Enter input");
+        int input = 5;  // we have collected user input into this variable
+        // we want to convert weight and what is the input
+
+        if (input < 0) {
+            System.out.println("you have entered invalid input");
+            return;
+        }
+
+        // actual logic
+
+
         /// ---- some magic ---
         System.out.println("Output: ");
     }
