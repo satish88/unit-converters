@@ -1,28 +1,26 @@
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 public class GramKilogramTest {
 
-    @Test
+    @org.testng.annotations.Test
     public void assertIntegerGramConvertIntoKilogram() {
         GramKilogram test1 = new GramKilogram();
         float Kilogram = test1.convertGramIntoKilogram(4000);
         assertEquals(Kilogram, 4, "convert 4000gms Kilogram kgs");
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void assertNegativeGramConvertIntoKilogram() {
         GramKilogram test2 = new GramKilogram();
         float Kilogram = test2.convertGramIntoKilogram(-6000);
-        assertEquals(Kilogram, "", "Negative unit can't be used");
+        assertEquals(Kilogram, 0, "Negative unit can't be used");
     }
 
     @org.testng.annotations.Test
     public void assertNegativeFloatGramConvertIntoKilogram() {
         GramKilogram test3 = new GramKilogram();
         float Kilogram = test3.convertGramIntoKilogram(-6783);
-        assertEquals(Kilogram, "", "Negative unit can't be used");
+        assertEquals(Kilogram, 0, "Negative unit can't be used");
     }
 
     @org.testng.annotations.Test

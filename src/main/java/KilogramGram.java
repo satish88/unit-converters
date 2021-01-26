@@ -1,13 +1,10 @@
 public class KilogramGram {
-    public static int convertKilogramIntoGram(int kg) {
-        int gram;
-        gram = 1000 * kg;
-        return gram;
-    }
-    public static void main(String[] args) {
-        int result = convertKilogramIntoGram(45);
-        System.out.println(result);
+    public float convertKilogramIntoGram(float kg) {
+        if (kg > 0) {
+            float gram = kg * 1000;
+            return gram;
+        } else {
+            return 0;
+        }
     }
 }
-
-
